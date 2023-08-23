@@ -38,11 +38,11 @@ npm install bits-ui
 
 ```svelte
 <script lang="ts">
-  import * as Select from "$components/ui/select";
+  import * as Select from "$lib/components/ui/select";
 </script>
 
 <Select.Root>
-  <Select.Trigger className="w-[180px]">
+  <Select.Trigger class="w-[180px]">
     <Select.Value placeholder="Theme" />
   </Select.Trigger>
   <Select.Content>
