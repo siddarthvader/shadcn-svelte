@@ -69,6 +69,11 @@ export const docsConfig: DocsConfig = {
 					items: []
 				},
 				{
+					title: "Changelog",
+					href: "/docs/changelog",
+					items: []
+				},
+				{
 					title: "About",
 					href: "/docs/about",
 					items: []
@@ -157,7 +162,6 @@ export const docsConfig: DocsConfig = {
 				{
 					title: "Data Table",
 					href: "/docs/components/data-table",
-					label: "Preview",
 					items: []
 				},
 				// {
